@@ -69,7 +69,7 @@ Modern NLP relies on **embeddings**—encoding tokens as vectors (multi-valued a
 * **Vector Geometry:** Semantically similar tokens point in similar directions in vector space.
 * **Cosine Similarity:** Used to measure the similarity between two vectors:
 
-$$\text{cosine\_similarity}(A, B) = \frac{A \cdot B}{\|A\| \|B\|}$$
+$$\text{cosine similarity}(A, B) = \frac{A \cdot B}{\|A\| \|B\|}$$
 
 
 
