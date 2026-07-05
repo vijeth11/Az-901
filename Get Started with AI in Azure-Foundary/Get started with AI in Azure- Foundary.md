@@ -170,14 +170,14 @@ Endpoints are protected: callers must present the correct API key or a valid Mic
     <img src="./0-discover.png" >
 
 11. View the Build page.
-    a. View and manage the agents and workflows in your project.
-    b. View and manage the models in your project.
-    c. Fine-tune base models to respond to queries based on your application’s specific needs.
-    d. Add and configure tools that agents can use to perform tasks.
-    e. Manage knowledge for your agents based on Foundry IQ data sources in your enterprise.
-    f. Connect and manage data indexes for AI agents and generative AI apps.
-    g. Create evaluations to compare model performance.
-    h. Define and manage guardrails to ensure compliance with responsible AI policies for generative AI content and behavior.
+    - View and manage the agents and workflows in your project.
+    - View and manage the models in your project.
+    - Fine-tune base models to respond to queries based on your application’s specific needs.
+    - Add and configure tools that agents can use to perform tasks.
+    - Manage knowledge for your agents based on Foundry IQ data sources in your enterprise.
+    - Connect and manage data indexes for AI agents and generative AI apps.
+    - Create evaluations to compare model performance.
+    - Define and manage guardrails to ensure compliance with responsible AI policies for generative AI content and behavior.
 
     <img src="./0-build.png" >
 
