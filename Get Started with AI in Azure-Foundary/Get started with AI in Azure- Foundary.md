@@ -148,26 +148,26 @@ Endpoints are protected: callers must present the correct API key or a valid Mic
 5. In the Azure portal home page, in the search box at the top of the page, search for your Microsoft Foundry parent resource.
 
 
-    <img src="./0-azure-portal-search.png" alt="Logo" width="200" height="100" />
+    <img src="./0-azure-portal-search.png" alt="Logo" />
 
 
 6. Select the Foundry resource that matches your parent resource name to open it.
 
 7. In the page for your Foundry resource, view the Resource Visualizer page to see the relationship between the resource and its child project(s).
 
-    <img src="./0-azure-resource-visualizer.png" width="200" height="100">
+    <img src="./0-azure-resource-visualizer.png" >
 
 8. Select the child project you created in this resource to open its page in the Azure portal.
 
-    <img src="./0-azure-project.png" width="200" height="100">
+    <img src="./0-azure-project.png" >
 
 9. View the Home page for your project. The project has an API key, Project endpoint, and Azure OpenAI endpoint, which can be used to securely access models, agents, and other assets in the project from client applications.
 
-    <img src="./foundry-portal-home.png" width="200" height="100">
+    <img src="./foundry-portal-home.png" >
 
 10. View the Discover page. This page surfaces the latest models and services and enables you to find starting points for AI application development.
 
-    <img src="./0-discover.png" width="200" height="100">
+    <img src="./0-discover.png" >
 
 11. View the Build page.
     a. View and manage the agents and workflows in your project.
@@ -179,7 +179,7 @@ Endpoints are protected: callers must present the correct API key or a valid Mic
     g. Create evaluations to compare model performance.
     h. Define and manage guardrails to ensure compliance with responsible AI policies for generative AI content and behavior.
 
-    <img src="./0-build.png" width="200" height="100">
+    <img src="./0-build.png" >
 
 12. View the Operate page.
 
@@ -188,7 +188,7 @@ Endpoints are protected: callers must present the correct API key or a valid Mic
     c. View and manage quota configuration that defines limits for usage of models and other assets in your project.
     d. Perform admin tasks to manage your projects.
 
-    <img src="./0-operate.png" width="200" height="100">
+    <img src="./0-operate.png" >
 
 13. View the Docs page. This page provides access to Microsoft Foundry documentation.
 
@@ -198,19 +198,19 @@ Endpoints are protected: callers must present the correct API key or a valid Mic
 
 15. Your Microsoft Foundry resource provides an endpoint in which you can deploy models and use them from applications and agents. On the Discover page, select the Models tab to view the Microsoft Foundry model catalog.
 
-    <img src="./0-foundry-models.png" width="200" height="100">
+    <img src="./0-foundry-models.png" >
 
 16. Search for and select the gpt-4.1-mini model, and view the page for this model, which describes its features and capabilities.
 
 17. Use the Deploy button to deploy the model using the default settings. Deployment may take a minute or so.
 
-    <img src="./0-gpt-4.1-mini.png" width="200" height="100">
+    <img src="./0-gpt-4.1-mini.png" >
 
 18. When the model has been deployed, view the model playground page that is opened, in which you can chat with the model.
 
 19. Ensure your model deployment (which should be named gpt-4.1-mini) is selected in the playground. In the Chat pane, test your model by entering a message
 
-    <img src="./0-model-playground.png" width="200" height="100">
+    <img src="./0-model-playground.png" >
 
 ##### **Use model via Foundary resourse endpoint**
 
@@ -222,7 +222,7 @@ Endpoints are protected: callers must present the correct API key or a valid Mic
 21. Open a second browser tab, and navigate to the Computing History Agent app at [https://aka.ms/computing-history-foundry].
 The Computing History app should open with its Configuration panel
 
-    <img src="./configure-computing-history.png" width="200" height="100">
+    <img src="./configure-computing-history.png" >
 
 22. Enter your project endpoint, model deployment name, and API key from the Foundry portal into the configuration settings, and save the configuration. The app will use your deployed model in Microsoft Foundry. And you can start conversation
 
