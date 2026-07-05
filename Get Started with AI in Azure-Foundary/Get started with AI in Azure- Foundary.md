@@ -183,10 +183,10 @@ Endpoints are protected: callers must present the correct API key or a valid Mic
 
 12. View the Operate page.
 
-    a. Managing assets like agents, models, and tools in your project.
-    b. Manage compliance with security policies.
-    c. View and manage quota configuration that defines limits for usage of models and other assets in your project.
-    d. Perform admin tasks to manage your projects.
+        a. Managing assets like agents, models, and tools in your project.
+        b. Manage compliance with security policies.
+        c. View and manage quota configuration that defines limits for usage of models and other assets in your project.
+        d. Perform admin tasks to manage your projects.
 
     <img src="./0-operate.png" >
 
@@ -215,9 +215,8 @@ Endpoints are protected: callers must present the correct API key or a valid Mic
 ##### **Use model via Foundary resourse endpoint**
 
 20. Select Home from menu at top to return to the home page. Note the following details for your project:
-    a. Project endpoint: The URL where your project resource can be accessed.
-
-    b. Project API key: The authentication key used to access your resource*.
+    - Project endpoint: The URL where your project resource can be accessed.    
+    - Project API key: The authentication key used to access your resource*.
 
 21. Open a second browser tab, and navigate to the Computing History Agent app at [https://aka.ms/computing-history-foundry].
 The Computing History app should open with its Configuration panel
