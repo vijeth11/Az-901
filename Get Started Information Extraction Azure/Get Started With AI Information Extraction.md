@@ -78,7 +78,7 @@ Azure Content Understanding's analyzers identify text values in documents and ma
 
 #### **Building Client Side Application**
 
-You can use the Content Understanding API to build a lightweight client application with a prebuilt analyzer or create a custom analyzer. Prebuilt analyzers include: prebuilt-invoice, prebuilt-imageSearch, prebuilt-audioSearch, and prebuilt-videoSearch. 
+You can use the Content Understanding API to build a lightweight client application with a prebuilt analyzer or create a custom analyzer. Prebuilt analyzers include: **prebuilt-invoice**, **prebuilt-imageSearch**, **prebuilt-audioSearch**, and **prebuilt-videoSearch**. 
 
 The analysis by Analyzer is asynchronous, which means you get the result later when it's ready. Because the analysis is asynchronous, you need to poll the Operation-Location URL (or analyzerResults) until the job succeeds.
 
