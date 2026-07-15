@@ -77,12 +77,33 @@ example of selecting model by type
 1. Deploying a model creates a managed endpoint with allocated compute, locked configuration, monitoring, and quotas so apps can call the model securely and reliably.
 
 2. Throughput and throttling: deployments use tokens‑per‑minute (TPM) or capacity units; set TPM to match expected load and handle throttling by lowering max tokens or concurrency.
+      <code>
 
-3. Monitoring: track usage, latency, errors, and cost after deployment; choose deployment type (standard, provisioned, batch) to balance cost and performance.
+         Example:-   
+            Imagine you’re using an AI service with these limits:
+            Max Tokens per request: 4,000
+            TPM: 20,000
+            RPM: 60
 
-4. Deployment‑level quotas define how many tokens or requests can be processed before throttling occurs. Larger prompts and higher max output token settings consume more TPM, leading to rate-limit errors if exceeded
+         Case 1: Long Request
+            You send a single request with 3,500 tokens input and ask for 1,000 tokens output.
+            Total = 4,500 tokens → exceeds Max Tokens → request fails.
 
-5. When you deploy a model in Foundry, several things occur:
+         Case 2: Too Many Requests
+            You send 70 small requests in one minute.
+            Exceeds RPM (60) → throttling → some requests blocked.
+
+         Case 3: Too Many Tokens
+            You send 10 requests, each with 3,000 tokens input + 1,000 output.
+            Total = 40,000 tokens in one minute → exceeds TPM (20,000) → throttling → later requests delayed or rejected.
+   
+      </code>
+      
+4. Monitoring: track usage, latency, errors, and cost after deployment; choose deployment type (standard, provisioned, batch) to balance cost and performance.
+
+5. Deployment‑level quotas define how many tokens or requests can be processed before throttling occurs. Larger prompts and higher max output token settings consume more TPM, leading to rate-limit errors if exceeded
+
+6. When you deploy a model in Foundry, several things occur:
 
    a. Compute resources are allocated: Foundry assigns the hardware needed to run the model—CPUs, GPUs, memory, networking, and scaling rules.
 
