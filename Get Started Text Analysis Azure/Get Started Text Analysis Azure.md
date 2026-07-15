@@ -35,7 +35,7 @@ Foundry resource vs project: a resource gives access to AI services; a project i
 
     4. Summarization, translation, Q&A, classification: general‑purpose models can perform these via prompts. 
 
-2. Azure Language analyzers (purpose‑built): use when you need deterministic, structured, repeatable outputs for pipelines (language detection, PII, specialized analyzers). In Azure AI foundary navigate to the Build page, then to Models, then to the AI services tab. Here you can look at some of the Azure language capabalities service tools
+2. Azure Language analyzers (purpose‑built): use when you need deterministic, structured, repeatable outputs for pipelines (language detection, PII, specialized analyzers). In Azure AI foundary navigate to the Build page, then to Models, then to the AI services tab. Here you can look at some of the Azure language capabalities service tools. Language Detection return value between 0 - 1 for confidence and NaN for unkown
 
     <img src="./foundry-ai-services.png">
 
