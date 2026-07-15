@@ -76,6 +76,49 @@ Azure Content Understanding's analyzers identify text values in documents and ma
 
 <img src="./invoice-json-result-playground.png">
 
+#### **Audio Elements That can be extracted**
+- Transcript phrases :-  
+    - What: Full transcription of spoken content.
+    - Example: Audio “Hello, welcome to the meeting” → JSON: "Transcript": "Hello, welcome to the meeting"  
+    - Supported: Yes, with multilingual + speaker diarization.
+
+- Speakers :-  
+    - What: Identifies who is speaking and when.
+    - Example: "Speaker1": "John", Start=00:05s, End=00:15s  
+    - Supported: Yes.
+
+- Timing information :-   
+  - What: Start/end timestamps for speech segments.
+  - Example: "Start": "00:05", "End": "00:15"  
+  - Supported: Yes.
+
+#### **🎥 Video Elements That can be extracted**
+
+- Key frames :-   
+    - What: Representative still images at important points.
+    - Example: At 00:30s → snapshot of slide change.
+    - Supported: Yes.
+
+- Camera shots :-   
+    - What: Detects shot changes (cuts, transitions).
+    - Example: Scene shifts from “office” to “outdoor” at 01:10s.
+    - Supported: Yes.
+
+- Faces :-
+    - What: Detects faces in video frames.
+    - Example: "FaceDetected": true, "BoundingBox": [x,y,w,h]  
+    - Supported: Yes (requires enableFace: true).
+
+- Celebrities :-   
+    - What: Recognizes famous personalities.
+    - Example: "Celebrity": "Cristiano Ronaldo"  
+    - Supported: Yes.
+
+- Landscapes / Landmarks :-   
+    - What: Identifies iconic places.
+    - Example: "Landmark": "Eiffel Tower, Paris"  
+    - Supported: Yes.
+      
 #### **Building Client Side Application**
 
 You can use the Content Understanding API to build a lightweight client application with a prebuilt analyzer or create a custom analyzer. Prebuilt analyzers include: **prebuilt-invoice**, **prebuilt-imageSearch**, **prebuilt-audioSearch**, and **prebuilt-videoSearch**. 
