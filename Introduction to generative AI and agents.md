@@ -18,7 +18,7 @@ The model breaks text into a vocabulary of "tokens" (words, sub-words, or punctu
 ### 2. Transforming Tokens (Embeddings)
 To process tokens, the model assigns each a **vector** (an array of numbers).
 * **Positional Encoding:** Added to the vector to indicate the token's place in the sequence.
-* **Embeddings:** Initial vectors are transformed into "embeddings"—vectors that encode the semantic and linguistic characteristics of the token based on training context.
+* **Embeddings:** Initial vectors are transformed into "embeddings"—vectors that encode the semantic and linguistic characteristics (like tense, sentiment, or part of speech) of the token based on training context.
 
 | Token | Token ID | Position | Vector |
 | :--- | :--- | :--- | :--- |
