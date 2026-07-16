@@ -78,12 +78,12 @@ Azure AI Language provides services for:
 
 ## Core Principles of Responsible AI
 
-1. **Fairness** → Minimize bias in training data and outputs.
-2. **Reliability & Safety** → AI is probabilistic; mitigate risks and ensure safe operation.
-3. **Privacy & Security** → Protect training data and prevent sensitive leaks.
-4. **Inclusiveness** → Ensure solutions are usable by all.
-5. **Transparency** → Explain how AI works and its limitations.
-6. **Accountability** → Organizations must govern and take responsibility.
+1. **Fairness** → AI developers need to take care to minimize bias in training data and test AI systems for fairness.
+2. **Reliability & Safety** → AI works on probabilities, not certainties.It can make mistakes.Applications must plan for errors and reduce risks.
+3. **Privacy & Security** → AI developers have a responsibility to ensure that the training data is kept secure, and that the trained models themselves can't be used to reveal private personal or organizational details.
+4. **Inclusiveness** → The potential of AI to improve lives and drive success should be open to everyone. AI developers should strive to ensure that their solutions don't exclude some users.
+5. **Transparency** → AI can sometimes seem like "magic", but it's important to make users aware of how the system works and any potential limitations it may have.
+6. **Accountability** → Ultimately, the people and organizations that develop and distribute AI solutions are accountable for their actions. It's important for organizations developing AI models and applications to define and apply a framework of governance to help ensure that they apply responsible AI principles to their work.
 7. **Example Scenarios**:
    - College admissions AI → must avoid demographic bias.
    - Robotics with computer vision → act only when confidence is high.
