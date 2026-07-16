@@ -22,18 +22,13 @@ This folder contains introductory AI learning resources, including Markdown docu
 
 ## Azure AI services sections (AI-901 module 2)
 
-- Get Started with AI in Azure-Foundary
-  - [Get started with AI in Azure- Foundary](Get%20Started%20with%20AI%20in%20Azure-Foundary/Get%20started%20with%20AI%20in%20Azure-%20Foundary.md)
-- Get Started With AI and Agents Azure
-  - [Get Started With AI and Agents in Azure](Get%20Started%20With%20AI%20and%20Agents%20Azure/Get%20Started%20With%20AI%20and%20Agents%20in%20Azure.md)
-- Get Started Text Analysis Azure
-  - [Get Started Text Analysis Azure](Get%20Started%20Text%20Analysis%20Azure/Get%20Started%20Text%20Analysis%20Azure.md)
-- Get Started Speech Analysis Azure
-  - [Get Started with Speech Analysis](Get%20Started%20Speech%20Analysis%20Azure/Get%20Started%20with%20Speech%20Analysis.md)
-- Get Started Vision Azure
-  - [Get Started with Vision Azure](Get%20Started%20Vision%20Azure/Get%20Started%20with%20Vision%20Azure.md)
-- Get Started Information Extraction Azure
-  - [Get Started With AI Information Extraction](Get%20Started%20Information%20Extraction%20Azure/Get%20Started%20With%20AI%20Information%20Extraction.md)
+
+- [Get started with AI in Azure- Foundary](Get%20Started%20with%20AI%20in%20Azure-Foundary/Get%20started%20with%20AI%20in%20Azure-%20Foundary.md)
+- [Get Started With AI and Agents in Azure](Get%20Started%20With%20AI%20and%20Agents%20Azure/Get%20Started%20With%20AI%20and%20Agents%20in%20Azure.md)
+- [Get Started Text Analysis Azure](Get%20Started%20Text%20Analysis%20Azure/Get%20Started%20Text%20Analysis%20Azure.md)
+- [Get Started with Speech Analysis](Get%20Started%20Speech%20Analysis%20Azure/Get%20Started%20with%20Speech%20Analysis.md)
+- [Get Started with Vision Azure](Get%20Started%20Vision%20Azure/Get%20Started%20with%20Vision%20Azure.md)
+- [Get Started With AI Information Extraction](Get%20Started%20Information%20Extraction%20Azure/Get%20Started%20With%20AI%20Information%20Extraction.md)
 
 ## Notes
 
