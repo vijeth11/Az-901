@@ -29,11 +29,13 @@ Foundry resource vs project: a resource gives access to AI services; a project i
 
     1. Key phrase extraction: pulls main concepts/keywords from text (useful for indexing/search). 
 
-    2. Named entity recognition (NER): finds people, places, orgs, dates, numbers, durations, etc. Example entities shown in the page. 
+    2. Named entity recognition (NER): finds people, places, orgs, dates, numbers, durations, etc. Example entities shown in the page.
+    
+    3. Entity Link:- Find  people, places, orgs linking to the knowledge base (RAG, document, database) in the agent. 
 
-    3. Sentiment analysis / opinion mining: sentence‑level or document‑level positive/negative/neutral scoring with explanations. 
+    4. Sentiment analysis / opinion mining: sentence‑level or document‑level positive/negative/neutral scoring with explanations. 
 
-    4. Summarization, translation, Q&A, classification: general‑purpose models can perform these via prompts. 
+    5. Summarization, translation, Q&A, classification: general‑purpose models can perform these via prompts. 
 
 2. Azure Language analyzers (purpose‑built): use when you need deterministic, structured, repeatable outputs for pipelines (language detection, PII, specialized analyzers). In Azure AI foundary navigate to the Build page, then to Models, then to the AI services tab. Here you can look at some of the Azure language capabalities service tools. Language Detection return value between 0 - 1 for confidence and NaN for unkown
 
