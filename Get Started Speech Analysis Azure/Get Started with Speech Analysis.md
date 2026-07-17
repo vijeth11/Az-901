@@ -37,7 +37,7 @@ Speech recognition (speech‑to‑text, STT): converts spoken input into text so
 
 ##### **Azure Tools**
 
-1. Speech to Text API :- This allows you to process voice input from microphone or audio file. 
+1. Speech to Text API :- This allows you to process voice input from microphone or audio file. It is optimised for Conversational and dictation by Azure
     
     In Microsoft Foundry portal, we can explore Azure Speech's speech-to-text capabilities by navigating to the Build page, then to Models, then to the AI services tab. 
     
