@@ -102,6 +102,6 @@ Speech synthesis converts text into spoken audio for natural interaction.
 Request: `"Dr. Chen's appointment is at 3:00 PM"`
 
 1. **Text normalization** → `"Doctor Chen's appointment is at three o'clock P M"`
-2. **Linguistic analysis** → `/ˈdɑktər ˈtʃɛnz əˈpɔɪntmənt ɪz æt θri əˈklɑk pi ɛm/`
+2. **Linguistic analysis** → Here it breaks normalized text to words then get pronounciation from lookup table then use G2P to create phoneme(sounds for each letter/small unit in language like:- `The word "cat" has 3 phonemes: /k/, /æ/, and /t/`) and syllable (sounds for largter units like doctor-> `doc-tor` 2 syllable `/ˈdɑktər ˈtʃɛnz əˈpɔɪntmənt ɪz æt θri əˈklɑk pi ɛm/`)
 3. **Prosody generation** → Pitch rises on _appointment_, pause after _is_, emphasis on _three_.
 4. **Speech synthesis** → Audio waveform generated with natural rhythm and stress.
