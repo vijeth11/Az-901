@@ -107,6 +107,19 @@ Speech recognition (speech‑to‑text, STT): converts spoken input into text so
         speech_recognizer.stop_continuous_recognition()
     </code>
 
+3. #### **Client app example**
+For example, let's say you want to develop a lightweight app that automatically transcribes voicemail messages. In the code editor, we have one audio file, and one Python file, which contains application code.Say you have an audio file containing a voicemail recording. To transcribe the message, start by specifying the endpoint and key and the audio source you want to transcribe. Then use a SpeechRecognizer object to perform the transcription, before displaying the results.
+
+recognise_once_async():- only takes single utterence does not support multi-utterance or running utterance 
+start_continuous_recognition():- allows multiple utterance and continous and batch both are present in the speech-to-text API/SDK
+
+<img src="./speech-to-text-python.png">
+
+Once you run the code, you can see the transcription text.
+
+<img src="./language-client-1.png">
+
+
 ##### **Audio Processing options**
 
 1. Real-time transcription:- In this you can stream the audio countinously to the service for which the application needs to be listening for incoming audio from a microphone, or other audio input source such as an audio file and then service returns transcribed text.
